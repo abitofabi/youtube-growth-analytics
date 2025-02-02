@@ -5,6 +5,15 @@ __pycache__/
 
 # C extensions
 *.so
+#Ignore vitrual environment
+venv/
+
+#Ignore SQLite Db
+youtube_data.db
+
+#Ignore API key files
+config.json
+.env
 
 # Distribution / packaging
 .Python
